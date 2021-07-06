@@ -1,0 +1,54 @@
+/**********************Global Settings*********************/
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    outline: none;
+}
+.container{
+    max-width: 90%;
+    margin: auto;
+}
+.row{
+    display: flex;
+   
+}
+.right-content img{
+    width:80%;
+}
+.left-content{
+    padding: 5% 5%;
+    margin-top: 68px;
+}
+.head-title h1{
+    color: #575757;
+    font-size: 33px;
+}
+.color-word{
+    background: linear-gradient(to right,#FC8F49,#FE4C2F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ 
+}
+.head-paragraph p{
+    font-size: 14px;
+    color: gray;
+}
+.head-button{
+    margin-top: 50px;
+}
+.right-content{
+    margin-top: 35px;
+}
+.head-button .btn {
+    background: purple;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    padding: 9px 25px;
+    border-radius: 20px;
+    color: white;
+    background: linear-gradient(to right,#FC8F49,#FE4C2F);
+    box-shadow: 7px 5px 25px -9px #fe5031;
+}
