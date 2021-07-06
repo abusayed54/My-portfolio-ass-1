@@ -13,6 +13,34 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.btn {
+    outline: none;
+    border: none;
+    font-size: 17px;
+    padding: 12px 25px;
+    border-radius: 20px;
+    color: white;
+    background: linear-gradient(to right,#FC8F49,#FE4C2F);
+    box-shadow: 7px 5px 25px -9px #fe5031;
+    cursor: pointer;
+}
+.btn:hover{
+    background: linear-gradient(to left,#FC8F49,#FE4C2F);
+}
+.color-word{
+    background: linear-gradient(to right,#FC8F49,#FE4C2F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ 
+}
+.color-word:hover{
+    background: linear-gradient(to left,#FC8F49,#FE4C2F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/**********************Global settings Finish*********************/
+
+/**********************Home css Start Here*********************/
 .home-section{
     background-image: url("images/Frame 59.jpg");
     background-repeat: no-repeat;
@@ -32,12 +60,8 @@ body{
     color: #575757;
     font-size: 50px;
 }
-.color-word{
-    background: linear-gradient(to right,#FC8F49,#FE4C2F);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
- 
-}
+
+
 .head-paragraph p{
     font-size: 18px;
     color: #303030;
@@ -48,17 +72,9 @@ body{
 .right-content{
     margin-top: 35px;
 }
-.btn {
-    background: purple;
-    outline: none;
-    border: none;
-    font-size: 17px;
-    padding: 12px 25px;
-    border-radius: 20px;
-    color: white;
-    background: linear-gradient(to right,#FC8F49,#FE4C2F);
-    box-shadow: 7px 5px 25px -9px #fe5031;
-}
+/**********************Home css Ends Here*********************/
+
+/**********************About css Start Here*********************/
 .about-me{
     background-image: url("images/7.png");
     background-repeat: no-repeat;
@@ -91,6 +107,9 @@ body{
 .about-btn{
     margin-top: 80px;
 }
+/**********************About css Ends Here*********************/
+
+/**********************Recipie css Start Here*********************/
 .recipie-head-section{
     width: 65%;
     align-items: center;
@@ -131,6 +150,9 @@ body{
     background-size: cover;
 
 }
+/**********************Recipie css Ends Here*********************/
+
+/**********************progress-statistics css Start Here********************/
 .progress-wrapper {
     height: 234px;
     width: 100%;
@@ -144,3 +166,38 @@ body{
     width: 80%;
     margin: 0 auto;
 }
+/**********************progress-statistics css Ends Here********************/
+
+/**********************Footer css Start Here********************/
+#footer-section{
+    background-color: #0B0D17;
+    color: white;
+    margin-top: 180px;
+    height: 220px;
+    width:100%;
+
+}
+.footer-content{
+    width: 100%;
+    text-align: center;
+    padding: 4px 5px;
+
+}
+.footer-content h2 {
+    margin-top: 48px;
+    font-size: 35px;
+    margin-bottom: 60px;
+    color: #5B5B5B;
+}
+
+.footer-content p{
+    font-size: 16px;
+    color: #BDBEC1;
+}
+/**********************Footer css Ends Here********************/
+
+/**********************
+***********************
+Thank You
+***********************
+***********************/
