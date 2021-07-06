@@ -3,8 +3,7 @@ body{
     margin:0;
     padding:0;
     font-family: 'Raleway', sans-serif;
-    box-sizing: border-box;
-    outline: none;
+   scroll-behavior: smooth;
 }
 .container{
     max-width: 90%;
@@ -12,8 +11,16 @@ body{
 }
 .row{
     display: flex;
-   
+    justify-content: space-between;
 }
+.home-section{
+    background-image: url("images/Frame 59.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    z-index: -2;
+}
+
 .right-content img{
     width:80%;
 }
@@ -23,7 +30,7 @@ body{
 }
 .head-title h1{
     color: #575757;
-    font-size: 33px;
+    font-size: 50px;
 }
 .color-word{
     background: linear-gradient(to right,#FC8F49,#FE4C2F);
@@ -32,8 +39,8 @@ body{
  
 }
 .head-paragraph p{
-    font-size: 14px;
-    color: gray;
+    font-size: 18px;
+    color: #303030;
 }
 .head-button{
     margin-top: 50px;
@@ -41,14 +48,99 @@ body{
 .right-content{
     margin-top: 35px;
 }
-.head-button .btn {
+.btn {
     background: purple;
     outline: none;
     border: none;
     font-size: 17px;
-    padding: 9px 25px;
+    padding: 12px 25px;
     border-radius: 20px;
     color: white;
     background: linear-gradient(to right,#FC8F49,#FE4C2F);
     box-shadow: 7px 5px 25px -9px #fe5031;
+}
+.about-me{
+    background-image: url("images/7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    z-index: -2;
+}
+.about-left-content{
+    width: 45%;
+}
+.about-left-content img{
+    width: 65%;
+    margin-left: 120px;
+    margin-top: 110px;
+}
+.about-right-content{
+    width: 40%;
+    padding: 5% 5%;
+    margin-top: 85px;
+}
+.about-right-content h2{
+    color: #575757;
+    font-size: 50px;
+}
+.about-right-content p{
+    line-height: 30px;
+    color: #303030;
+}
+.about-btn{
+    margin-top: 80px;
+}
+.recipie-head-section{
+    width: 65%;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    padding: 3% 5%;
+}
+.recipie-head-section h2{
+    color: #575757;
+    font-size: 40px;
+    
+}
+.recipie-head-section p{
+
+    color: #303030;
+}
+.recipie-card-section{
+    
+}
+.card{
+    width:30%;
+    box-shadow: 0px 0px 46px -22px gray;
+    border-radius: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 15px;
+
+}
+.card h2{
+    font-weight: 800;
+}
+.card p{
+    line-height: 30px;
+}
+.card img{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+
+}
+.progress-wrapper {
+    height: 234px;
+    width: 100%;
+    box-shadow: 0px 0px 46px -22px gray;
+    margin-top: 180px;
+}
+.progress-statistics h1{
+    font-size: 50px;
+}
+.progress-inner-wrap{
+    width: 80%;
+    margin: 0 auto;
 }
